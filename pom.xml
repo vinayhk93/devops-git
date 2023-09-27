@@ -156,7 +156,6 @@
 		</dependency>
 	        -->
 
-
 		</dependencies>
 
     <build>
@@ -490,6 +489,12 @@
                         <artifactId>maven-jxr-plugin</artifactId>
                         <version>2.1</version>
                     </plugin>
+		     <exclusions>
+                         <exclusion>
+                             <artifactId>tools</artifactId>
+                             <groupId>com.sun</groupId>
+                         </exclusion>
+                     </exclusions>
                 </plugins>
             </reporting>
         </profile>

@@ -489,11 +489,11 @@
                         <artifactId>maven-jxr-plugin</artifactId>
                         <version>2.1</version>
                     </plugin>
-		     <exclusions>
+		     <!-- <exclusions>
                          <exclusion>
                              <artifactId>tools</artifactId>
                              <groupId>com.sun</groupId>
-                         </exclusion>
+                         </exclusion> -->
                      </exclusions>
                 </plugins>
             </reporting>

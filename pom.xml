@@ -493,8 +493,8 @@
                          <exclusion>
                              <artifactId>tools</artifactId>
                              <groupId>com.sun</groupId>
-                         </exclusion> -->
-                     </exclusions>
+                         </exclusion> 
+                     </exclusions>-->
                 </plugins>
             </reporting>
         </profile>
